@@ -1,0 +1,127 @@
+Các phím tắt mặc định trong PhpStorm
+Đầy đủ các phím tắt mặc định PHPStorm trên Window:
+
+1. Chỉnh sửa
+1	Ctrl + Space	Gợi ý hoàn thiện những hàm, biến đang được viết dở
+2	Ctrl + Shift + Enter	Hoàn thiện nốt dòng đang viết.
+3	Ctrl + P	Hiển thị thông tin các tham số cần điền trong hàm.
+4	Ctrl + Q	Tra cứu tài liệu nhanh chóng.
+5	Ctrl + trỏ chuột lên phía trên của code	Giới thiệu tóm tắt thông tin.
+6	Ctrl + F1	Hiển thị mô tả về lỗi hoặc cảnh báo.
+7	Alt + Insert	Tạo mã … (Getters, Setters, Constructors).
+8	Ctrl + O	Override một method.
+9	Ctrl + I	Implement một method.
+10	Ctrl + Alt + T	Tạo ngoặc ngọn với … (if..else, try..catch, cho, vv).
+11	Ctrl + /	Comment / bỏ ghi chú với dòng bình luận.
+12	Ctrl + Shift + /	Comment / bỏ ghi chú với khối bình luận (nhiều dòng).
+13	Ctrl + W	Chọn liên tục (bôi đen) tăng khối mã (code).
+14	Ctrl + Shift + W	Giảm lựa chọn hiện tại trạng thái trước (13).
+15	Alt + Q	Thông tin Context.
+16	Alt + Enter	Hiển thị ý định hành động và sửa chữa tức thì.
+17	Ctrl + Alt + L	Định dạng lại code trong tab đang được hiển thị.
+18	Ctrl + Alt + I	Tự động xét con trỏ xuống dòng.
+19	Tab / Shift + Tab	Con trỏ xuống / lên chọn dòng.
+20	Ctrl + X hoặc Shift + Delete	Cắt dòng hiện hoặc khối đã chọn vào clipboard.
+21	Ctrl + C hoặc Ctrl + Insert	Sao chép dòng hiện tại hoặc khối đã chọn vào clipboard.
+22	Ctrl + V hoặc Shift + Insert	Dán từ clipboard.
+23	Ctrl + Shift + V	Dán từ bộ đệm gần đây …
+24	Ctrl + D	Duplicate dòng hiện hoặc khối đã chọn.
+25	Ctrl + Y	Xóa dòng, khối dòng đang được chọn.
+26	Ctrl + Shift + J	Đưa trỏ đến tham số kế tiếp.
+27	Ctrl + Enter	Đưa trỏ đến cuối dòng.
+28	Shift + Enter	Bắt đầu dòng mới.
+29	Ctrl + Shift + U	Bật tắt trường hợp cho chữ tại dấu nháy hoặc khối đã chọn.
+30	Ctrl + Shift +] / [	Chọn cho đến khối mã kết thúc / bắt đầu.
+31	Ctrl + Delete	Xóa từ vị trí con trỏ đến cuối.
+32	Ctrl + Backspace	Xóa từ vị trí con trỏ đến đầu.
+33	Ctrl + Numpad +/-	Mở rộng / thu gọn khối mã.
+34	Ctrl + Shift + Numpad +	Mở rộng tất cả.
+35	Ctrl + Shift + NumPad –	Thu gọn tất cả.
+36	Ctrl + F4	Đóng tab đang hoạt động biên tập.
+37	Ctrl + J	Chọn text giống text đang highlight ở vị trí tiếp theo
+2. Điều hướng
+37	Ctrl + N	Tới Class
+38	Ctrl + Shift + N	Đi tới file
+39	Ctrl + Alt + Shift + N	Đi tới biểu tượng
+40	Alt + Left / Right	Mở tab phía trước/sau
+41	F12	Quay trở lại cửa sổ công cụ trước
+42	Esc	Quay trở lại màn hình edit code
+43	Shift + Esc	Đóng hoạt động hoặc qua cửa sổ đang mở
+44	Ctrl + Shift + F4	Đóng, dừng hành động Run/ Message / Search/ …
+45	Ctrl + G	Di chuyển đến dòng số
+46	Ctrl + E	Mở danh sách những tập tin đc mở gần đây
+47	Ctrl + Alt + Left / Right	Chuyển tới file đc edit trước/sau
+48	Ctrl + Shift + Backspace	Chuyển đến file chỉnh sửa cuối cùng
+49	Alt + F1	Chọn file hoặc biểu tượng bất kì với kí tự được nhập
+50	Ctrl + B hoặc Ctrl + Click	Chuyển tới nơi biến/hàm được khai báo
+51	Ctrl + Alt + B	Chuyển tới nơi hàm/class được triển khai (s)
+52	Ctrl + Shift + I	Mở tra cứu định nghĩa
+53	Ctrl + Shift + B	Chuyển tới nơi kiểu được định nghĩa
+54	Ctrl + U	Chuyển tới super-method/super-class được định nghĩa
+55	Alt + Up / Down	Chuyển tới method trước/sau
+56	Ctrl +] / [	Di chuyển đến nơi khối mã kết thúc / bắt đầu
+57	Ctrl + F12	Mở popup cấu trúc project
+58	Ctrl + H	Mở hệ thống phân cấp các kiểu dữ liệu
+59	Ctrl + Shift + H	Mở hệ thống phân cấp các method
+60	Ctrl + Alt + H	Mở hệ thống phân cấp
+61	F2 / Shift + F2	Highlight lỗi trước/sau
+62	F4 / Ctrl + Enter	Sửa nguồn / Xem mã nguồn
+63	Alt + Home	Hiển thị thanh điều hướng
+64	F11	Chuyển đổi bookmark
+65	Ctrl + F11	Chuyển đổi bookmark với mnemonic
+66	Ctrl + # [0-9]	Tới bookmark đánh số
+67	Shift + F11	Hiển thị bookmark
+3. Tìm kiếm và thay thế
+68	Ctrl + F	Tìm
+69	F3	Tới kết quả tiếp theo
+70	Shift + F3	Tới kết quả trước đó
+71	Ctrl + R	Thay thế
+72	Ctrl + Shift + F	Tìm trong trong tất cả tập tin trong thư mục chỉ định
+73	Ctrl + Shift + R	Thay thế trong trong tất cả tập tin trong thư mục chỉ định
+4. Tìm kiếm cách sử dụng
+74	Alt + F7 / Ctrl + F7	Tìm những nơi được sử dụng/được sử dụng trong file
+75	Ctrl + Shift + F7	Highlight những nơi được sử dụng
+76	Ctrl + Alt + F7	Hiển thị cách dùng
+5. Running
+77	Alt + Shift + F10	Chọn cấu hình và chạy
+78	Alt + Shift + F9	Chọn cấu hình và thực hiện debug
+79	Shift + F10	Run
+80	Shift + F9	Debug
+81	Ctrl + Shift + F10	Run cấu hình context từ editor
+82	Ctrl + Shift + X	Mở command line
+6. Debug
+83	F8	Chạy qua
+84	F7	Chạy vào
+85	Shift + F7	Chạy vào thông minh
+86	Shift + F8	Chạy ra khỏi context hiện tại
+87	Alt + F9	Run từ nơi trỏ chuột
+88	Alt + F8	Bảng đánh giá
+89	F9	Resume chương trình
+90	Ctrl + F8	Bật tắt breakpoint
+91	Ctrl + Shift + F8	Xem breakpoint
+7. Refactor
+92	F5	Sao chép file
+93	F6	Di chuyểnfile
+94	Alt + Delete	Xóa file an toàn
+95	Shift + F6	 Rename file
+96	Ctrl + Alt + N	Hiển thị thông tin biến của hàm
+97	Ctrl + Alt + M	Hiển thị thông tin chi tiết của hàm
+98	Ctrl + Alt + V	Hiển thị thông tin chi tiết của biến
+99	Ctrl + Alt + F	Hiển thị thông tin của line
+100	Ctrl + Alt + C	Hiển thị thông tin của Constant
+8. Version controls (svn/git)
+101	Alt + backquote ()	Mở nhanh popup version controls
+102	Ctrl + K	Commit code
+103	Ctrl + T	Update code
+104	Alt + Shift + C	Xem thay đổi gần đây
+9. Chỉnh sửa chung
+105	Ctrl + Shift + A	Tìm kiếm action
+106	Alt + # [0-9]	Mở cửa sổ công cụ tương ứng
+107	Ctrl + Shift + F12	Mở rộng tab đang được edit
+108	Alt + Shift + F	Thêm vào mục ưa thích
+109	Alt + Shift + I	Kiểm tra tập tin với cấu hình hiện tại
+110	Ctrl + backquote ()	Switch schema
+111	Ctrl + Alt + S	Mở cửa sổ cài đặt nhanh
+112	Ctrl + Tab	Chuyển đổi giữa các tab và cửa sổ công cụ
+Bạn có thể tùy biến lại những phím tắt này bằng cách mở của sổ Setting (Ctrl + Alt + S)
+ và nhập từ khóa “Keymap” vào ô tìm kiếm và thay đổi các hotkey hiện tại để phụ hợp với công việc và thới quen của bạn.
